@@ -12,6 +12,7 @@
   "dependencies": {
     "colors": "*",
     "tab": "*",
+    "underscore": "*",
     "osrs-servers": "*"
   }
 }
