@@ -1,7 +1,7 @@
 
 # osrs-top
 
-Show top servers by population
+Show top OldSchool RuneScape servers by population
 
     $ osrs-top
     Downloading server list...
