@@ -1,7 +1,7 @@
 {
   "name": "osrs-top",
   "description": "Show most populated osrs servers",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "repository": {
     "url": "git://github.com/jb55/osrs-top.git"
   },
