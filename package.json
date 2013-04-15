@@ -1,0 +1,17 @@
+{
+  "name": "osrs-top",
+  "description": "Show most populated osrs servers",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/jb55/osrs-top.git"
+  },
+  "main": "index.js",
+  "bin": {
+    "osrs-top": "bin/cmd.js"
+  },
+  "dependencies": {
+    "colors": "*",
+    "tab": "*",
+    "osrs-servers": "*"
+  }
+}
