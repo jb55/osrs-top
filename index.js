@@ -35,10 +35,12 @@ var columns = [
   }
 ];
 
-module.exports = function (servers) {
+module.exports = function (servers, opts) {
+  opts = opts || {};
+  var n = opts.n || 10;
   servers = _(servers).chain()
                       .sortBy(function(s){ return -s.players; })
-                      .first(10)
+                      .first(n)
                       .value();
   var ind = 0;
   var rows = servers.map(function(s){
