@@ -13,6 +13,7 @@
     "colors": "*",
     "tab": "*",
     "underscore": "*",
+    "optimist": "*",
     "osrs-servers": "*"
   }
 }

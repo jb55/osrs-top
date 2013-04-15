@@ -19,11 +19,14 @@ Show top OldSchool RuneScape servers by population
 
 
 # install
- 
+
     npm install -g osrs-top
 
 # usage
 
-    osrs-top [n]
+    osrs-top [options]
 
+      options:
+        -r          sort pop in ascending order (default is descending)
+        -n <value>  number of servers to show (default 10)
 

@@ -39,7 +39,9 @@ module.exports = function (servers, opts) {
   opts = opts || {};
   var n = opts.n || 10;
   servers = _(servers).chain()
-                      .sortBy(function(s){ return -s.players; })
+                      .sortBy(function(s){
+                        return opts.reverse? s.players : -s.players;
+                      })
                       .first(n)
                       .value();
   var ind = 0;
